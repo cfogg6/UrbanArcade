@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pac Man</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="uastyle.css"/>
+</head>
+<body>
+<button onclick="start()">Start</button>
+<button onclick="somethingReallyCool()">Test</button>
+<h3>Score: </h3>
+<h3 id="score">0</h3>
+<div id="map"></div>
+<div id="warnings-panel"></div>
+<embed src="pacman_beginning.wav" hidden="true" autostart="true" loop="1"></embed>
+<audio id="chomp" src="pacman_chomp.wav" loop="true"></audio>
+<script src="JavaScript.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrRIpXl4mWWJyw89rQePwoPt4NOVIape4&callback=initMap"
+        async defer></script>
+</body>
+</html>
